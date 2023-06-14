@@ -1,0 +1,3 @@
+name: Cloud Load Balancer
+description: Distribute incoming network traffic across multiple servers to improve application availability and performance.
+price: 15

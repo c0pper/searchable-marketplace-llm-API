@@ -1,0 +1,3 @@
+name: Cloud IoT Platform
+description: Connect, manage, and analyze data from IoT devices securely and at scale in the cloud.
+price: 30

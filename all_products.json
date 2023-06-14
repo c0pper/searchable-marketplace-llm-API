@@ -1,0 +1,142 @@
+[
+    {
+        "_id": "6486f470f94690d52c3c29ad",
+        "name": "Cloud Storage",
+        "description": "Secure and scalable cloud storage solution with flexible storage options.",
+        "price": 10,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29ae",
+        "name": "Cloud Computing Instances",
+        "description": "Powerful virtual machines for running applications and workloads in the cloud.",
+        "price": 20,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29af",
+        "name": "Cloud Database Service",
+        "description": "Managed database service for storing and retrieving structured data in the cloud.",
+        "price": 15,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29b0",
+        "name": "Cloud Content Delivery Network",
+        "description": "Global network of servers for fast and reliable content delivery across the globe.",
+        "price": 12,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29b1",
+        "name": "Cloud Monitoring Solution",
+        "description": "Comprehensive monitoring and analytics platform for cloud infrastructure and applications.",
+        "price": 18,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29b2",
+        "name": "Serverless Computing",
+        "description": "Run applications without managing servers, scale automatically, and pay only for usage.",
+        "price": 25,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29b3",
+        "name": "Cloud Data Warehousing",
+        "description": "Efficiently analyze large volumes of data with a scalable and high-performance data warehouse.",
+        "price": 30,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29b4",
+        "name": "Cloud Backup and Recovery",
+        "description": "Automated backup and recovery solutions to protect critical data and applications.",
+        "price": 22,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29b5",
+        "name": "Cloud AI Services",
+        "description": "Harness the power of artificial intelligence with pre-built models and APIs for vision, speech, and language.",
+        "price": 35,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29b6",
+        "name": "Cloud DevOps Tools",
+        "description": "Collaborative development and operations tools for efficient software delivery in the cloud.",
+        "price": 28,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29b7",
+        "name": "Cloud Object Storage",
+        "description": "Scalable and durable storage for unstructured data with low latency access and high availability.",
+        "price": 12,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29b8",
+        "name": "Cloud Load Balancer",
+        "description": "Distribute incoming network traffic across multiple servers to improve application availability and performance.",
+        "price": 15,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29b9",
+        "name": "Serverless Database",
+        "description": "Fully managed, auto-scaling database service that removes the need for database administration.",
+        "price": 20,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29ba",
+        "name": "Cloud Video Transcoding",
+        "description": "Convert video files into various formats and resolutions for streaming and delivery across devices.",
+        "price": 18,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29bb",
+        "name": "Cloud Identity and Access Management",
+        "description": "Control access to cloud resources with centralized user management, permissions, and authentication.",
+        "price": 22,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29bc",
+        "name": "Cloud Container Orchestration",
+        "description": "Manage and automate the deployment, scaling, and management of containerized applications.",
+        "price": 25,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29bd",
+        "name": "Cloud IoT Platform",
+        "description": "Connect, manage, and analyze data from IoT devices securely and at scale in the cloud.",
+        "price": 30,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29be",
+        "name": "Cloud Server Backup",
+        "description": "Automated backup and restore services for server instances, ensuring data protection and recovery.",
+        "price": 28,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29bf",
+        "name": "Cloud CDN",
+        "description": "Distribute content globally with low latency and high data transfer speeds using a content delivery network.",
+        "price": 24,
+        "url": "https://www.google.com"
+    },
+    {
+        "_id": "6486f470f94690d52c3c29c0",
+        "name": "Cloud Machine Learning",
+        "description": "Build and deploy machine learning models at scale using cloud-based infrastructure and services.",
+        "price": 35,
+        "url": "https://www.google.com"
+    }
+]

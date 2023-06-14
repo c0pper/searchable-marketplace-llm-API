@@ -1,0 +1,3 @@
+name: Cloud Content Delivery Network
+description: Global network of servers for fast and reliable content delivery across the globe.
+price: 12

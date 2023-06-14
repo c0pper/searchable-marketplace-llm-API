@@ -1,0 +1,3 @@
+name: Cloud Container Orchestration
+description: Manage and automate the deployment, scaling, and management of containerized applications.
+price: 25

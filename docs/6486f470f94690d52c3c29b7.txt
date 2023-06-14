@@ -1,0 +1,3 @@
+name: Cloud Object Storage
+description: Scalable and durable storage for unstructured data with low latency access and high availability.
+price: 12

@@ -1,0 +1,3 @@
+name: Cloud Computing Instances
+description: Powerful virtual machines for running applications and workloads in the cloud.
+price: 20

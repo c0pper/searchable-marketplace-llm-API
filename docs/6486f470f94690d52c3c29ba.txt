@@ -1,0 +1,3 @@
+name: Cloud Video Transcoding
+description: Convert video files into various formats and resolutions for streaming and delivery across devices.
+price: 18

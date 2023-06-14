@@ -1,0 +1,3 @@
+name: Cloud AI Services
+description: Harness the power of artificial intelligence with pre-built models and APIs for vision, speech, and language.
+price: 35

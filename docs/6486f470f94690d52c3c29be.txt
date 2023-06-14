@@ -1,0 +1,3 @@
+name: Cloud Server Backup
+description: Automated backup and restore services for server instances, ensuring data protection and recovery.
+price: 28

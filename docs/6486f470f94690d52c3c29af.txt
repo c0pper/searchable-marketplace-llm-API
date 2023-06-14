@@ -1,0 +1,3 @@
+name: Cloud Database Service
+description: Managed database service for storing and retrieving structured data in the cloud.
+price: 15

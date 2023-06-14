@@ -1,0 +1,3 @@
+name: Cloud Identity and Access Management
+description: Control access to cloud resources with centralized user management, permissions, and authentication.
+price: 22

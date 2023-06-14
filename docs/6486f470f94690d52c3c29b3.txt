@@ -1,0 +1,3 @@
+name: Cloud Data Warehousing
+description: Efficiently analyze large volumes of data with a scalable and high-performance data warehouse.
+price: 30
