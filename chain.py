@@ -1,24 +1,8 @@
-from langchain.vectorstores import Chroma
-from langchain.embeddings import HuggingFaceEmbeddings
-import os
 import textwrap
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 from langchain.llms import OpenAI
-from ingest import docs
-
-
-persist_directory = "db"
-embeddings = HuggingFaceEmbeddings()
-if os.path.exists(persist_directory) and os.path.isdir(persist_directory):
-    print("Directory 'db' exists. Using existing vectordb")
-    db = Chroma(persist_directory=persist_directory, embedding_function=embeddings)
-
-else:
-    # pass
-    db = Chroma.from_documents(docs, embeddings, persist_directory=persist_directory)
-    print("Directory 'db' does not exist. Creating new vectordb")
-    db.persist()
+from ingest import db
 
 
 def wrap_text_preserve_newlines(text, width=110):
@@ -35,10 +19,8 @@ def wrap_text_preserve_newlines(text, width=110):
 
 
 def process_llm_response(llm_response, scores):
-
     response = wrap_text_preserve_newlines(llm_response['result'])
     print(response)
-
 
     print('\n\nSources:')
     sources = []
@@ -55,8 +37,6 @@ def process_llm_response(llm_response, scores):
     #
     # return wrap_text_preserve_newlines(llm_response['result'])
     return {"generative_reply": response, "sources": sources}
-
-
 
 
 def ask_llm(question: str):
@@ -78,25 +58,11 @@ def ask_llm(question: str):
                                            return_source_documents=True,
                                            chain_type_kwargs=chain_type_kwargs)
 
-    similarity = db.similarity_search_with_score(question, k=desired_results)  # The returned distance score is L2 distance. Therefore, a lower score is better.
+    similarity = db.similarity_search_with_score(question,
+                                                 k=desired_results)  # The returned distance score is L2 distance. Therefore, a lower score is better.
     scores = [x[1] for x in similarity]
 
     llm_response = qa_chain(question)
     llm_response = process_llm_response(llm_response, scores)
 
     return llm_response
-
-
-if __name__ == '__main__':
-    if os.path.exists(persist_directory) and os.path.isdir(persist_directory):
-        print("Directory 'db' exists. Using existing vectordb")
-        db = Chroma(persist_directory=persist_directory, embedding_function=embeddings)
-
-    else:
-        # pass
-        db = Chroma.from_documents(docs, embeddings, persist_directory=persist_directory)
-        print("Directory 'db' does not exist. Creating new vectordb")
-        db.persist()
-
-    results = db.similarity_search_with_score("need backup service", k=4)
-    print([x[1] for x in results])
