@@ -1,0 +1,1 @@
+* This project is an appendix of [searchable marketplace](https://github.com/c0pper/searchable-marketplace). It generates the NL response to the user query.
